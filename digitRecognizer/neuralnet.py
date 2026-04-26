@@ -8,6 +8,12 @@ import os
 #     return e / s
 
 
+"""
+
+    CRUCIAL NOTE: TRAIN IS DEPICTED , USE ONLY FOR EVALUATING, FOR TRAINING USE NeuralNetwork class in NN module
+
+"""
+
 def softmax(n): 
     e = np.exp(n - np.max(n))
     s = np.sum(e)
